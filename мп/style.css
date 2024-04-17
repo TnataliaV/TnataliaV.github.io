@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Rubik+Mono+One&display=swap');
+
+p,
+a,
+li {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 64px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+ul {
+    display: flex;
+}
+
+.header_link {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#cover {
+    background-color: #CE492D;
+}
+
+.cover {
+    background-image: url(img/Time_management_bro.svg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.coverDescription {
+    width: 700px;
+}
+
+#basic {
+    display: flex;
+    margin-top: 100px;
+}
+
+.description {
+    background-color: #EDE7E5;
+    border-radius: 25px;
+    margin-left: 40px;
+    padding-top: 75px;
+    padding-left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h2 {
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 36px;
+}
+
+ol {
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 18px;
+}
+
+#tools {
+    display: flex;
+    margin-top: 100px;
+}
+
+#factor {
+    display: flex;
+    margin-top: 100px;
+    background-color: #ede7e5;
+    padding-top: 40px;
+    padding-left: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
